@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<stdlib.h>
-static fsize=0;
+static int fsize=0;
 int e=0,hit=0,fal=0;
 
 struct node {
@@ -179,7 +179,7 @@ int  main(){
 			case 4:
 				printf("%d %d\n",hit,fal);
 			default:
-				printf("Enter Numbers 1-4");
+				printf("Enter Numbers 1-5");
 				
 		}
 	}
